@@ -228,7 +228,7 @@
   "compatibility": {
     "minimum": "10.288",
     "verified": "10.288",
-    "maximum": "10"
+    "maximum": "12"
   },
   "url": "https://github.com/Astrotech89/me5e-v141",
   "manifest": "https://github.com/Astrotech89/me5e-v141/raw/main/module.json",
