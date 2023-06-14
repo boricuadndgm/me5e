@@ -1,6 +1,6 @@
 {
-  "id": "me5e-v141",
-  "title": "Mass Effect 5e",
+  "id": "me5e-n7",
+  "title": "Mass Effect 5e - Normandy 7",
   "description": "A module to add support for Mass Effect 5e, an adaptation of the Mass Effect sci-fi universe to work with the dnd5e system.",
   "esmodules": [
     "src/me5e.js"
@@ -222,15 +222,21 @@
       "name": "marxpark00",
       "url": "https://github.com/marxpark00",
       "flags": {}
+    },
+    {
+      "name": "boricuadndgm",
+      "url": "https://github.com/boricuadndgm",
+      "flags": {}
     }
   ],
-  "version": "0.1.1",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "10.291",
-    "verified": "11.299"
+    "verified": "11.301",
+    "maximum": "11.301"
   },
-  "url": "https://github.com/boricuadndgm/me5e",
-  "manifest": "https://github.com/boricuadndgm/me5e/raw/main/module.json",
-  "download": "https://github.com/boricuadndgm/me5e/raw/main/module.zip",
-  "readme": "https://github.com/boricuadndgm/me5e/raw/main/README.md"
+  "url": "https://github.com/boricuadndgm/me5e-n7",
+  "manifest": "https://raw.githubusercontent.com/boricuadndgm/me5e-n7/main/module.json",
+  "download": "https://github.com/boricuadndgm/me5e-n7/raw/main/module.zip",
+  "readme": "https://raw.githubusercontent.com/boricuadndgm/me5e-n7/main/README.md"
 }
