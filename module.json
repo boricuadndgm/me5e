@@ -1,7 +1,12 @@
 {
   "id": "me5e-n7",
-  "title": "Mass Effect 5e - Normandy 7",
-  "description": "A module to add support for Mass Effect 5e, an adaptation of the Mass Effect sci-fi universe to work with the dnd5e system.",
+  "title": "Mass Effect 5e - Normandy 7 Edition",
+  "description": "A module to add support for Mass Effect 5e, an adaptation of the Mass Effect sci-fi universe to work with the D&D 5e system. See more at https://www.n7.world",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.302"
+  },
   "esmodules": [
     "src/me5e.js"
   ],
@@ -15,167 +20,151 @@
     "styles/paragon.css",
     "styles/renegade.css"
   ],
+  "packFolders": [
+    {
+      "name": "Classes",
+      "sorting": "a",
+      "pack": [
+        "classes-me5e-v141"
+      ],
+      "folders": [
+        {
+          "name": "corebook",
+          "sorting": "a",
+          "color": "#ff0000",
+          "packs": [
+            "classes-me5e-v141"
+          ]
+        }
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "backgrounds-me5e",
       "label": "Backgrounds (ME5e)",
       "system": "dnd5e",
       "path": "packs/backgrounds-me5e.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "bestiary-me5e",
       "label": "Bestiary (ME5e)",
       "system": "dnd5e",
       "path": "packs/bestiary-me5e.db",
-      "type": "Actor",
-      "private": false,
-      "flags": {}
+      "type": "Actor"
     },
     {
       "name": "classes-me5e-v141",
       "label": "Classes (ME5e)",
       "system": "dnd5e",
       "path": "packs/classes-me5e-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "subclasses-me5e-v141",
       "label": "Subclasses (ME5e)",
       "system": "dnd5e",
       "path": "packs/subclasses-me5e-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "class-features-me5e-v141",
       "label": "Class Features (ME5e)",
       "system": "dnd5e",
       "path": "packs/class-features-me5e-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "feats-me5e",
       "label": "Feats (ME5e)",
       "system": "dnd5e",
       "path": "packs/feats-me5e.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "item-weapons-v141",
       "label": "Item Weapons (ME5e)",
       "system": "dnd5e",
       "path": "packs/item-weapons-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "item-armor-v141",
       "label": "Item Armor (ME5e)",
       "system": "dnd5e",
       "path": "packs/item-armor-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "item-gear-v141",
       "label": "Item Gear (ME5e)",
       "system": "dnd5e",
       "path": "packs/item-gear-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "item-mods-v141",
       "label": "Item Mods (ME5e)",
       "system": "dnd5e",
       "path": "packs/item-mods-v141.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "powers-me5e",
       "label": "Powers (ME5e)",
       "system": "dnd5e",
       "path": "packs/powers-me5e.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "vehiclesme5e",
       "label": "Vehicles (ME5e)",
       "system": "dnd5e",
       "path": "packs/vehiclesme5e.db",
-      "type": "Actor",
-      "private": false,
-      "flags": {}
+      "type": "Actor"
     },
     {
       "name": "species-me5e-14",
       "label": "Species (ME5e)",
       "system": "dnd5e",
       "path": "packs/species-me5e-14.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "racial-features-me5e-14",
       "label": "Racial Features (ME5e)",
       "system": "dnd5e",
       "path": "packs/racial-features-me5e-14.db",
-      "type": "Item",
-      "private": false,
-      "flags": {}
+      "type": "Item"
     },
     {
       "name": "weapon-properties",
       "label": "Weapon Properties (ME5e)",
       "system": "dnd5e",
       "path": "packs/weapon-properties.db",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
+      "type": "JournalEntry"
     },
     {
       "name": "ME5e-Rules",
       "label": "ME5e Rules",
       "system": "dnd5e",
       "path": "packs/me5e-rules.db",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
+      "type": "JournalEntry"
     },
     {
       "name": "ME5e-RollTables",
       "label": "ME5e RollTables",
       "system": "dnd5e",
       "path": "packs/me5e-rolls.db",
-      "type": "RollTable",
-      "private": false,
-      "flags": {}
+      "type": "RollTable"
     }
   ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
+      "path": "lang/en.json"
     }
   ],
   "relationships": {
@@ -183,9 +172,10 @@
       {
         "id": "dnd5e",
         "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "2.0.3",
-          "verified": "2.0.3"
+          "verified": "2.2.1"
         }
       }
     ],
@@ -198,45 +188,49 @@
       {
         "id": "custom-rarities-and-currencies",
         "type": "module",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
       }
     ]
   },
   "authors": [
     {
+      "name": "boricuadndgm",
+      "discord": "boricuadndgm#1234",
+      "email": "boricua.dndgm@gmail.com",
+      "url": "https://github.com/boricuadndgm"
+    },
+    {
       "name": "Astrotech89",
-      "url": "https://github.com/Astrotech89",
-      "flags": {}
+      "url": "https://github.com/Astrotech89"
     },
     {
       "name": "bushongj",
-      "url": "https://github.com/bushongj",
-      "flags": {}
+      "url": "https://github.com/bushongj"
     },
     {
       "name": "sparkcity",
-      "url": "https://github.com/sparkcity",
-      "flags": {}
+      "url": "https://github.com/sparkcity"
     },
     {
       "name": "marxpark00",
-      "url": "https://github.com/marxpark00",
-      "flags": {}
-    },
-    {
-      "name": "boricuadndgm",
-      "url": "https://github.com/boricuadndgm",
-      "flags": {}
+      "url": "https://github.com/marxpark00"
     }
   ],
-  "version": "0.2.0",
-  "compatibility": {
-    "minimum": "10.291",
-    "verified": "11.301",
-    "maximum": "11.301"
-  },
   "url": "https://github.com/boricuadndgm/me5e-n7",
-  "manifest": "https://raw.githubusercontent.com/boricuadndgm/me5e-n7/main/module.json",
-  "download": "https://github.com/boricuadndgm/me5e-n7/raw/main/module.zip",
-  "readme": "https://raw.githubusercontent.com/boricuadndgm/me5e-n7/main/README.md"
+  "manifest": "https://github.com/boricuadndgm/me5e-n7/releases/download/v0.2.0/module.json",
+  "download": "https://github.com/boricuadndgm/me5e-n7/releases/download/v0.2.0/module.zip",
+  "readme": "https://github.com/boricuadndgm/me5e-n7/blob/main/README.md",
+  "license": "https://github.com/boricuadndgm/me5e-n7/blob/main/README.md",
+  "changelog": "https://github.com/boricuadndgm/me5e-n7/blob/main/README.md",
+  "bugs": "https://github.com/boricuadndgm/me5e-n7/issues",
+  "library": false,
+  "media": [
+    {
+      "type": "setup",
+      "url": "media/citadel.7f18908.jpg",
+      "thumbnail": "media/me5e-icon.png"
+    }
+  ]
 }
