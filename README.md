@@ -1,7 +1,8 @@
 This is a framework that was originally created by Sparkcity for the Mass Effect 5e module for Foundry-VTT.
 Initial release is copy of hist v1.9
+https://github.com/sparkcity/fvtt-me5e/blob/main/src/me5e.js
 
-## Installation 
+## Installation
 Copy this link into the add-on module prompt:
 https://github.com/Astrotech89/me5e-v141/raw/main/module.json
 
@@ -24,7 +25,7 @@ https://github.com/Astrotech89/me5e-v141/raw/main/module.json
     * Make new character sheet similar to TechKinghts Roll20
 * Integrate ME5e character builder into game system
 
-<!-- 
+<!--
 Beginning of Sparkcity's README
 
 [![Foundry](https://img.shields.io/badge/Foundry%40Minimum-0.7.5-green)](https://foundryvtt.com/)
@@ -46,7 +47,7 @@ Beginning of Sparkcity's README
 * Compendiums:
     * Backgrounds
     * Bestiary
-    * Classes 
+    * Classes
     * Class Features (with subclass features)
     * Feats
     * Item Catalogue (with separate: armor, weapons, weapon mods, armor mods, grenades, programs, and more)

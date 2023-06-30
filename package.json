@@ -1,0 +1,33 @@
+{
+  "name": "me5e-n7",
+  "version": "0.2.0",
+  "description": "A module to add support for Mass Effect 5e, an adaptation of the Mass Effect sci-fi universe to work with the D&D 5e system. See more at https://www.n7.world",
+  "main": "src/me5e.js",
+  "repository": "https://github.com/boricuadndgm/me5e-n7.git",
+  "author": "boricuadndgm",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/gulp": "^4.0.13",
+    "@types/node": "^20.3.2",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "latest",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-eslint-new": "^1.8.1",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "packageManager": "yarn@3.6.0",
+  "dependencies": {
+    "esbuild": "0.18.10",
+    "handlebars": "^4.7.7"
+  }
+}

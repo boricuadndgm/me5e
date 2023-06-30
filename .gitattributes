@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# https://foundryvtt.com/article/module-development/
+# Using Git with Databases in Windows
+# Following the switch to use Classic Level instead of NEDB it's important to use a .gitattributes file that instructs the Windows version of git to treat the databases as binary files or else it will attempt to change line endings and corrupt the files. Place the following in the file: /** binary
+/** binary

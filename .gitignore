@@ -1,3 +1,7 @@
+
+# OS Specific
 .DS_Store
 
-packs/species-me5e-14.db
+# Node Modules
+.yarn/
+node_modules/
